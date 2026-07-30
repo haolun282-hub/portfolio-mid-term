@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Trần Huy Hào | Board Games</title>
+  
+  <!--Nhập Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  
+  <!--File stylesheet dùng chung-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Thanh điều hướng (Navigation Bar)-->
+  <nav class="navbar container">
+    <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+    <div class="nav-links">
+      <a href="Personal Portfolio.html" class="nav-link">INFO</a>
+      <a href="boardgames.html" class="nav-link active">BOARD GAMES</a>
+      <a href="mechanics.html" class="nav-link">GAME MECHANICS</a>
+    </div>
+  </nav>
+
+  <!--Khung nội dung chính với hiệu ứng Fade-in-->
+  <main class="container animate-fade">
+
+    <!--Header Trang Board Games-->
+    <header class="hero">
+      <span class="mssv">TABLETOP & TCG LAB</span>
+      <h1 class="name">Board Game Vault</h1>
+      <p class="role">Thư viện trò chơi thẻ bài & chiến thuật yêu thích</p>
+      <p class="bio">
+        Góc không gian nghiên cứu các thể loại Board Game chiến thuật, trò chơi thẻ bài (TCG) và cách cấu trúc một trận đấu cân bằng.
+      </p>
+    </header>
+
+    <!--Mục 01: Thể loại nổi bật-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">01</span>
+        <span class="sec-title">Thể Loại Trò Chơi Nổi Bật</span>
+      </div>
+
+      <div class="cards-grid">
+        <article class="info-card">
+          <span class="card-badge">TCG / CCG</span>
+          <h3 class="card-title">Trading Card Games</h3>
+          <p class="card-desc">Tập trung vào tính toán xác suất rút bài, tối ưu hóa synergy giữa các quân bài và chiến thuật xây dựng bộ bài.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-badge">STRATEGY</span>
+          <h3 class="card-title">Area Control & Eurogame</h3>
+          <p class="card-desc">Trò chơi quản lý tài nguyên và kiểm soát lãnh thổ, giảm thiểu yếu tố may mắn ngẫu nhiên để đề cao tư duy lập kế hoạch dài hạn.</p>
+        </article>
+      </div>
+    </section>
+
+    <!--Mục 02: Dự án thử nghiệm Board Game-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">02</span>
+        <span class="sec-title">Dự Án Board Game Cá Nhân</span>
+      </div>
+
+      <div class="project-card">
+        <h2 class="card-title">Digital Board Game Prototype</h2>
+        <h3 class="project-name">Mô Phỏng Trận Đấu Thẻ Bài Trực Tuyến</h3>
+        <ul class="project-list">
+          <li>Xây dựng thuật toán xáo bài và tính toán tỉ lệ xuất hiện của các quân bài khởi đầu.</li>
+          <li>Thực nghiệm cân bằng sát thương và quản lý nhịp độ lượt chơi.</li>
+          <li>Thiết kế giao diện thẻ bài tối giản, tập trung vào trải nghiệm tương tác trực quan cho người chơi.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!--Script xử lý tương tác JavaScript-->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Trần Huy Hào</title>
+  
+  <!--Nhập Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  
+  <!--File stylesheet dùng chung-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Thanh điều hướng (Navigation Bar)-->
+  <nav class="navbar container">
+    <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+    <div class="nav-links">
+      <a href="Personal Portfolio.html" class="nav-link active">INFO</a>
+      <a href="boardgames.html" class="nav-link">BOARD GAMES</a>
+      <a href="mechanics.html" class="nav-link">GAME MECHANICS</a>
+    </div>
+  </nav>
+
+  <!--Khung nội dung chính với hiệu ứng Fade-in-->
+  <main class="container animate-fade">
+
+    <!--Phần Giới thiệu bản thân (Hero)-->
+    <header class="hero">
+      <span class="mssv">MSSV . 2400009264</span>
+      <h1 class="name">Trần Huy Hào</h1>
+      <p class="role">Sinh viên chuyên ngành Kỹ Thuật Phần Mềm</p>
+      <p class="bio">
+        Xin chào, tôi là một sinh viên IT với niềm đam mê đối với xây dựng ứng dụng giải trí board game online và phân tích chiến thuật game.
+      </p>
+    </header>
+
+    <!--Mục 01: Danh sách dự án-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">01</span>
+        <span class="sec-title">Dự án</span>
+      </div>
+
+      <div class="project-card">
+        <h2 class="card-title">FullStack / Core Team Member</h2>
+        <h3 class="project-name">Dự án Pixel Pet RPG (Pet Realm Explorer)</h3>
+        <ul class="project-list">
+          <li>Xây dựng trò chơi nhập vai có cơ chế nuôi dưỡng, huấn luyện thú cưng và hệ thống chiến đấu theo lượt.</li>
+          <li>Thiết kế hệ thống bản đồ vượt ải đa dạng, tích hợp thuật toán xử lý di chuyển, va chạm và nhịp độ xuất hiện quái vật / Boss phân cấp.</li>
+          <li>Xây dựng công thức tính toán thuộc tính (Level, HP, Attack), thuật toán xác suất thuần hóa thú cưng và lưu trữ trạng thái người chơi tối ưu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Mục 02: Kỹ năng chuyên môn-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">02</span>
+        <span class="sec-title">Kỹ năng</span>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-tag">Python</div>
+        <div class="skill-tag">C++</div>
+        <div class="skill-tag">SQL</div>
+        <div class="skill-tag">HTML/CSS/JS</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--Script xử lý tương tác JavaScript-->
+  <script src="script.js"></script>
+</body>
+</html>

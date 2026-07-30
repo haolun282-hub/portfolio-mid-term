@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Trần Huy Hào | Game Mechanics</title>
+  
+  <!--Nhập Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  
+  <!--File stylesheet dùng chung-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Thanh điều hướng (Navigation Bar)-->
+  <nav class="navbar container">
+    <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+    <div class="nav-links">
+      <a href="Personal Portfolio.html" class="nav-link">INFO</a>
+      <a href="boardgames.html" class="nav-link">BOARD GAMES</a>
+      <a href="mechanics.html" class="nav-link active">GAME MECHANICS</a>
+    </div>
+  </nav>
+
+  <!--Khung nội dung chính với hiệu ứng Fade-in-->
+  <main class="container animate-fade">
+
+    <!--Header Trang Mechanics-->
+    <header class="hero">
+      <span class="mssv">SYSTEM & LOGIC DESIGN</span>
+      <h1 class="name">Game Mechanics</h1>
+      <p class="role">Nghiên cứu cơ chế game & Thuật toán cân bằng</p>
+      <p class="bio">
+        Khám phá toán học và mã nguồn đằng sau các cơ chế trò chơi chiến thuật, từ việc kiểm soát RNG đến thiết kế cây quyết định.
+      </p>
+    </header>
+
+    <!--Mục 01: Cơ chế thiết kế-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">01</span>
+        <span class="sec-title">Cơ Chế Thiết Kế Cốt Lõi</span>
+      </div>
+
+      <div class="cards-grid">
+        <article class="info-card">
+          <span class="card-badge">PROBABILITY</span>
+          <h3 class="card-title">Xác Suất & Kiểm Soát RNG</h3>
+          <p class="card-desc">Áp dụng công thức phân phối siêu bội để tính toán chính xác xác suất rút bài starter trong lượt đầu tiên.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-badge">RESOURCE</span>
+          <h3 class="card-title">Quản Lý Nhịp Độ Trận Đấu</h3>
+          <p class="card-desc">Cân bằng chi phí tài nguyên (Mana/Energy) với sức mạnh quân bài nhằm duy trì tính công bằng xuyên suốt các giai đoạn của trận đấu.</p>
+        </article>
+      </div>
+    </section>
+
+    <!--Mục 02: Mô phỏng bằng thuật toán-->
+    <section class="section">
+      <div class="section-header">
+        <span class="sec-num">02</span>
+        <span class="sec-title">Mô Phỏng Bằng Thuật Toán</span>
+      </div>
+
+      <div class="project-card">
+        <h2 class="card-title">C++ Game Simulation Engine</h2>
+        <h3 class="project-name">Chương Trình Mô Phỏng Rút Bài Monte Carlo</h3>
+        <ul class="project-list">
+          <li>Viết chương trình mô phỏng 100.000 lượt rút bài ngẫu nhiên để kiểm tra độ ổn định của bộ bài.</li>
+          <li>Xử lý và biểu diễn dữ liệu thống kê đầu ra để giúp tối ưu hóa số lượng quân bài bổ trợ.</li>
+          <li>Ứng dụng kiến thức C++ và cấu trúc dữ liệu mảng/danh sách liên kết vào bài toán thực tế.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!--Script xử lý tương tác JavaScript-->
+  <script src="script.js"></script>
+</body>
+</html>
